@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w",
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "daisyui": "^4.6.0",
     "tailwindcss": "^3.4.1"
   }
 }
