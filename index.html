@@ -178,7 +178,7 @@
         <!-- News & Events -->
         <section>
             <div class="text-center space-y-5">
-                <h1 class="text-5xl">News & Events</h1>
+                <h1 class="text-5xl font-extrabold">News & Events</h1>
                 <p class="max-w-4xl mx-auto">
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                     alteration in some form, by injected humour, or randomised words which don't look even slightly
@@ -222,6 +222,56 @@
             </div>
         </section>
     </main>
+    <!-- Footer Section  -->
+    <footer class="bg-base-200 mt-24 p-10">
+        <div class="flex justify-between mb-24">
+            <aside class="items-center grid-flow-col">
+                <img src="images/cup.png" alt="">
+            </aside>
+            <nav class="flex items-center gap-10">
+                <p>Ready to get strated?</p>
+                <button class="btn btn-primary">Get Started</button>
+            </nav>
+        </div>
+        <div class="grid lg:grid-cols-4 text-base-content space-y-5">
+            <nav class="flex flex-col">
+                <header class="footer-title">Quick Links</header>
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">About Us</a>
+                <a class="link link-hover">Insurance</a>
+                <a class="link link-hover">Privacy Policy</a>
+            </nav>
+            <nav class="flex flex-col">
+                <header class="footer-title">Our Service</header>
+                <a class="link link-hover">Life Insurance</a>
+                <a class="link link-hover">Car Insurance</a>
+                <a class="link link-hover">Health Insurance</a>
+                <a class="link link-hover">House Insurance</a>
+            </nav>
+            <nav class="flex flex-col">
+                <header class="footer-title">Help</header>
+                <a class="link link-hover">FAQs</a>
+                <a class="link link-hover">Contact Us</a>
+            </nav>
+            <form>
+                <header class="footer-title">Subscribe to our newsletter</header>
+                <fieldset class="form-control">
+                    <label class="label">
+                        <span class="label-text">Enter your email address</span>
+                    </label>
+                    <div class="join">
+                        <input type="text" placeholder="username@site.com" class="input input-bordered join-item" />
+                        <button class="btn btn-primary join-item">Subscribe</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="footer footer-center py-14  text-base-content">
+            <aside>
+                <p>Copyright © 2024 - All right reserved by ACME Industries Ltd</p>
+            </aside>
+        </div>
+    </footer>
 </body>
 
 </html>
