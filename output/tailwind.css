@@ -1271,6 +1271,42 @@ html {
   line-height: 1.5rem;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.right-10 {
+  right: 2.5rem;
+}
+
+.-left-10 {
+  left: -2.5rem;
+}
+
+.-top-10 {
+  top: -2.5rem;
+}
+
+.-top-5 {
+  top: -1.25rem;
+}
+
+.-left-5 {
+  left: -1.25rem;
+}
+
+.-left-9 {
+  left: -2.25rem;
+}
+
+.-left-7 {
+  left: -1.75rem;
+}
+
 .row-span-2 {
   grid-row: span 2 / span 2;
 }
@@ -1300,6 +1336,10 @@ html {
 
 .mb-5 {
   margin-bottom: 1.25rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .flex {
@@ -1342,6 +1382,10 @@ html {
   justify-content: center;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
@@ -1354,36 +1398,27 @@ html {
   gap: 2rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
-.gap-12 {
-  gap: 3rem;
-}
-
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .rounded-xl {
   border-radius: 0.75rem;
 }
 
-.rounded-t-xl {
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
+.bg-\[\#e6a6231a\] {
+  background-color: #e6a6231a;
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#e6a6231a\] {
-  background-color: #e6a6231a;
 }
 
 .bg-gradient-to-r {
@@ -1396,21 +1431,9 @@ html {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-cyan-500 {
-  --tw-gradient-from: #06b6d4 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(6 182 212 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-\[\#F00\] {
-  --tw-gradient-from: #F00 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(255 0 0 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-\[\#F0000000\] {
-  --tw-gradient-from: #F0000000 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(240 0 0 / 0) var(--tw-gradient-to-position);
+.from-\[\#FF8938\] {
+  --tw-gradient-from: #FF8938 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 137 56 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -1420,20 +1443,20 @@ html {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.to-\[\#F00\] {
+  --tw-gradient-to: #F00 var(--tw-gradient-to-position);
+}
+
 .to-\[\#f4f4f4\] {
   --tw-gradient-to: #f4f4f4 var(--tw-gradient-to-position);
 }
 
-.to-blue-500 {
-  --tw-gradient-to: #3b82f6 var(--tw-gradient-to-position);
-}
-
-.to-\[\#FF8938\] {
-  --tw-gradient-to: #FF8938 var(--tw-gradient-to-position);
-}
-
 .to-amber-100 {
   --tw-gradient-to: #fef3c7 var(--tw-gradient-to-position);
+}
+
+.p-40 {
+  padding: 10rem;
 }
 
 .p-5 {
@@ -1444,9 +1467,8 @@ html {
   padding: 2rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-8 {
@@ -1457,6 +1479,21 @@ html {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .text-center {
@@ -1499,6 +1536,11 @@ html {
 .text-amber-400 {
   --tw-text-opacity: 1;
   color: rgb(251 191 36 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .drop-shadow-lg {
